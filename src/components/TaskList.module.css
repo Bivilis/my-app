@@ -1,0 +1,29 @@
+/* TaskList.module.css */
+
+.task-list {
+	list-style: none; /* Убираем маркеры списка */
+	padding: 0; /* Убираем отступы */
+}
+
+.task-item {
+	display: flex; /* Делаем элементы гибкими */
+	align-items: center; /* Выравниваем по центру */
+	justify-content: space-between; /* Распределяем пространство между элементами */
+	background: #f4f4f4; /* Серый фон */
+	padding: 10px; /* Внутренние отступы */
+	margin: 5px 0; /* Внешние отступы */
+	border-radius: 5px; /* Закругленные углы */
+}
+
+.task-item button {
+	background: #ff5252; /* Красный фон кнопки */
+	border: none; /* Убираем границу */
+	color: white; /* Белый текст */
+	padding: 5px 10px; /* Внутренние отступы */
+	cursor: pointer; /* Курсор в виде указателя */
+	border-radius: 3px; /* Закругленные углы */
+}
+
+.task-item button:hover {
+	background: #ff1744; /* Цвет кнопки при наведении */
+}
